@@ -23,7 +23,7 @@ startTime <- "2019-01-14 00:00"
 # LET OP Auhenticatie verloopt via een webinterface waarmee je rtweet toegang geeft tot je account
 # dit is nodig om de zoekopdracht hieronder te laten werken
 # n is aantal uitgevraagde tweets. Bepaal dit aan de hand van het zoekvolume
-tmp_tweets2 <-search_tweets(searchText, n=1000, tweet_mode='extended')
+tmp_tweets <-search_tweets(searchText, n=1000, tweet_mode='extended')
 
 # DATA BEWERKINGEN
 # a. wegfilteren mentions (niet interessant) en tweets zonder URL's
